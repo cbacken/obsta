@@ -1,0 +1,36 @@
+{
+  "name": "obsta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "prettier": "prettier lib/**/*.ts --write",
+    "test": "mocha -r ts-node/register lib/**/*spec*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cbacken/obsta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbacken/obsta/issues"
+  },
+  "homepage": "https://github.com/cbacken/obsta#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.4",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "prettier": "^1.13.7",
+    "rimraf": "^2.6.2",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "rxjs": "^6.2.1"
+  }
+}
