@@ -133,6 +133,6 @@ describe("Observable Moving Averages", () => {
           done();
         }
       );
-    }).timeout(10000);    
+    }).timeout(10000);  
   });
 });
